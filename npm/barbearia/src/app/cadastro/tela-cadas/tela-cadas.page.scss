@@ -10,8 +10,13 @@
     top: 40px;
     background: #D9D9D9;
     border-radius: 30px;
+    
 }
 
+#voltar{
+    position: relative;
+    right: 20px;
+}
 //nome
 #lines1{
     position: absolute;
@@ -101,7 +106,7 @@
     position: absolute;
     width: 216px;
     left: 35px;
-    top: 380px;
+    top: 345px;
     border: 1px solid #000000;  
 }
 
@@ -110,7 +115,7 @@
     width: 90px;
     height: 30px;
     left: 105px;
-    top: 270px;
+    top: 250px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 900;
@@ -123,7 +128,7 @@
     width: 195px;
     height: 0px;
     left: 65px;
-    top: 365px;
+    top: 332px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 900;
@@ -134,7 +139,7 @@
 #img_telefone{
     position: absolute;
     left: 35px;
-    top: 355px;
+    top: 320px;
 }
 
 //Senha
@@ -142,7 +147,7 @@
     position: absolute;
     width: 216px;
     left: 35px;
-    top: 380px;
+    top: 450px;
     border: 1px solid #000000;  
 }
 
@@ -151,7 +156,7 @@
     width: 90px;
     height: 30px;
     left: 115px;
-    top: 380px;
+    top: 360px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 900;
@@ -163,8 +168,8 @@
     position: absolute;
     width: 195px;
     height: 0px;
-    left: 65px;
-    top: 365px;
+    left: 60px;
+    top: 435px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 900;
@@ -175,9 +180,29 @@
 #img_senha{
     position: absolute;
     left: 35px;
-    top: 355px;
+    top: 425px;
 }
 
+ion-checkbox {
+    --size: 32px;
+    --background: #D9D9D9;
+    position: absolute;
+    left: 220px;
+    top: 420px;
+    opacity: 0;
+
+  }
+
+ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid ;
+}
+
+#olho{
+    position:absolute;
+    left: 222px;
+    top: 425px;
+}
 
 //BT_Confirma
 #botao{
