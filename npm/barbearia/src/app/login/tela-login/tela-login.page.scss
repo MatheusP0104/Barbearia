@@ -28,10 +28,94 @@
     
 }
 
+// User
 #usuario{
     margin-top: 30px;
+    
 }
 
+#input_user{
+    position: absolute;
+    width: 190px;
+    left: 80px; 
+    top: 273px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+#img_user{
+    position: absolute;
+    left: 53px; 
+    top: 292px;
+
+}
+
+#lines1{
+    position: absolute;
+    width: 216px;
+    left: 53px;
+    top: 315px;
+    border: 1px solid #000000;  
+}
+
+// Senha
+#senha{
+    position: absolute;
+    top: 370px;
+}
+
+#img_senha{
+    position: absolute;
+    left: 53px; 
+    top: 422px;
+}
+
+#olho_aberto{
+    position: absolute;
+    left: 240px; 
+    top: 420px;
+}
+
+ion-checkbox {
+    --size: 22px;
+    --background: #D9D9D9;
+    position: absolute;
+    left: 242px; 
+    top: 421px;
+    opacity: 0;
+
+}
+
+ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid ;
+}
+
+#input_senha{
+    position: absolute;
+    left: 80px; 
+    top: 403px;
+    width: 170px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 39px;
+
+}
+
+#lines2{
+    position: absolute;
+    width: 216px;
+    left: 53px;
+    top: 445px;
+    border: 1px solid #000000;  
+}
+
+// confirmar
 #botao{
     box-sizing: border-box;
     font-family: 'Inika';
